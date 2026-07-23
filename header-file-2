@@ -1,0 +1,11 @@
+<div class="d-flex align-items-center gap-16 gap-lg-32">
+    @foreach($themeSpecificLinks as $themeSpecificLink)
+        <a href="{{ $themeSpecificLink['url'] }}" class="text-dark">
+            {{ $themeSpecificLink['title'] }}
+        </a>
+    @endforeach
+
+    <a href="https://nabtah.net/about-us" class="text-dark">
+        Slot Gacor Malam Ini
+    </a>
+</div>
